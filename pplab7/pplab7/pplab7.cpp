@@ -1,6 +1,7 @@
 ﻿#include "pch.h"
 #include <iostream>
 #include "mage.h"
+#include "spell.h"
 
 int main()
 {
