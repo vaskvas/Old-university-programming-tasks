@@ -1,2 +1,6 @@
-﻿  department.cpp
-  pplab8.1.vcxproj -> C:\Users\1\source\repos\pplab8.1\Debug\pplab8.1.exe
+﻿  pch.cpp
+  department.cpp
+  employee.cpp
+  pplab8.1.cpp
+  Создание кода...
+  pplab8.1.vcxproj -> D:\Files\Учеба\3 курс 2 семестр\Прикл. програмирование\GIT\branch\pplab8.1\Debug\pplab8.1.exe
