@@ -47,7 +47,9 @@ time time::operator*(const int& plusTime)
 
 bool time::operator<(time & Time)
 {
-	if (hours <= Time.hours)
+	if (hours < Time.hours)
+		return true;
+	if (hours == Time.hours)
 	{
 		if(minutes < Time.minutes)
 			return true;
@@ -67,6 +69,8 @@ bool time::operator<=(time & Time)
 
 bool time::operator>(time & Time)
 {
+	if (hours > Time.hours)
+		return true;
 	if (hours >= Time.hours)
 	{
 		if (minutes > Time.minutes)
