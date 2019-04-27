@@ -49,7 +49,6 @@ int main()
 	}
 	printArrayTime(array);
 	std::cout << std::endl;
-	time val;
 	for (int i = 1; i < n; ++i)
 	{
 		for (int j = 0; j < n - i; j++)
