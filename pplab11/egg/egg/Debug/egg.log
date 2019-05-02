@@ -1,0 +1,6 @@
+﻿  egg.cpp
+c:\users\1\source\repos\egg\egg\egg.cpp(10): warning C4273: egg::broke: несовместимая компоновка dll
+  c:\users\1\source\repos\egg\egg\egg.h(16): note: см. предыдущее определение "broke"
+c:\users\1\source\repos\egg\egg\egg.cpp(18): warning C4273: egg::say: несовместимая компоновка dll
+  c:\users\1\source\repos\egg\egg\egg.h(17): note: см. предыдущее определение "say"
+  egg.vcxproj -> C:\Users\1\source\repos\egg\Debug\egg.dll
