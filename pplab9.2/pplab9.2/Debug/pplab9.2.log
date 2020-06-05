@@ -1,2 +1,4 @@
-﻿  money.cpp
-  pplab9.2.vcxproj -> C:\Users\1\source\repos\pplab9.2\Debug\pplab9.2.exe
+﻿  pplab9.2.cpp
+C:\Users\vasek\Desktop\Education\master\pplab9.2\pplab9.2\money.h(31,26): warning C4244: =: преобразование "float" в "unsigned char", возможна потеря данных
+C:\Users\vasek\Desktop\Education\master\pplab9.2\pplab9.2\money.h(45,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  pplab9.2.vcxproj -> C:\Users\vasek\Desktop\Education\master\pplab9.2\Debug\pplab9.2.exe

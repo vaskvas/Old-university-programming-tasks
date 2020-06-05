@@ -1,16 +1,20 @@
 ﻿#include "pch.h"
-#include <iostream>
 #include "money.h"
 int main()
 {
+	long rubOne;
+	unsigned char kopOne;
+	std::cout << "Vvedite pervoe chislo: \nrub:";
+	std::cin >> rubOne;
+	std::cout << "\nkopeiki:";
+	std::cin >> kopOne;
 	money one;
-	one.set(5, 150);
-	money two;
-	two.set(5, 50);
-	money three = one + two;
-	three.print();
-	three = one - two;
-	three.print();
-	three = one * 3;
-	three.print();
+	one.set(rubOne, kopOne);
+
+	money two = one + 35.43f;
+	two.print();
+	two = one - 3.63f;
+	two.print();
+	two = one * 3.65f;
+	two.print();
 }
